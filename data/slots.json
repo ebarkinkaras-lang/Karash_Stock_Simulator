@@ -3,9 +3,9 @@
     "name": "ilk denemem",
     "exchange": "BIST",
     "capital": 100000,
-    "cash": 187.5,
-    "portfolio_value": 89144.1,
-    "pnl_pct": -10.86,
+    "cash": 75998.0,
+    "portfolio_value": 86080.6,
+    "pnl_pct": -13.92,
     "strong_thresh": 50,
     "indicators": [
       "MC-Hull",
@@ -26,13 +26,6 @@
     "active": true,
     "stopped": false,
     "open_positions": [
-      {
-        "ticker": "TUPRS.IS",
-        "qty": 335,
-        "buy_price": 268.25,
-        "buy_date": "2026-04-24",
-        "score_at_buy": 50.83
-      },
       {
         "ticker": "MGROS.IS",
         "qty": 13,
@@ -111,9 +104,20 @@
           "rsi": 68.6,
           "atr": 2.2372
         }
+      },
+      {
+        "date": "2026-06-16",
+        "action": "SAT",
+        "ticker": "TUPRS.IS",
+        "qty": 335,
+        "price": 226.3,
+        "pnl_pct": -15.64,
+        "score": -39.01,
+        "cash_after": 75998.0,
+        "reason": "stop-loss"
       }
     ],
-    "last_run": "2026-06-15",
+    "last_run": "2026-06-16",
     "currency": "TRY",
     "tickers_scanned": 20
   }
