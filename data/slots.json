@@ -3,9 +3,9 @@
     "name": "ilk denemem",
     "exchange": "BIST",
     "capital": 100000,
-    "cash": 76931.3,
-    "portfolio_value": 84432.3,
-    "pnl_pct": -15.57,
+    "cash": 84185.3,
+    "portfolio_value": 84185.3,
+    "pnl_pct": -15.81,
     "strong_thresh": 50,
     "indicators": [
       "MC-Hull",
@@ -25,15 +25,7 @@
     ],
     "active": true,
     "stopped": false,
-    "open_positions": [
-      {
-        "ticker": "MGROS.IS",
-        "qty": 13,
-        "buy_price": 678.0,
-        "buy_date": "2026-05-06",
-        "score_at_buy": 51.41
-      }
-    ],
+    "open_positions": [],
     "trade_log": [
       {
         "date": "2026-04-24",
@@ -119,9 +111,20 @@
         "score": -42.23,
         "cash_after": 76931.3,
         "reason": "stop-loss"
+      },
+      {
+        "date": "2026-08-13",
+        "action": "SAT",
+        "ticker": "MGROS.IS",
+        "qty": 13,
+        "price": 558.0,
+        "pnl_pct": -17.7,
+        "score": -36.63,
+        "cash_after": 84185.3,
+        "reason": "stop-loss"
       }
     ],
-    "last_run": "2026-08-12",
+    "last_run": "2026-08-13",
     "currency": "TRY",
     "tickers_scanned": 20
   }
